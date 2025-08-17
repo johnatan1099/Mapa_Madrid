@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0421cb1710645f47a986f324b5e77708 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0421cb1710645f47a986f324b5e77708" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0421cb1710645f47a986f324b5e77708 = L.map(
+                "map_0421cb1710645f47a986f324b5e77708",
+                {
+                    center: [40.4168, -3.7038],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85d3cc034a6ece016ffb72e71d2a70ec = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var marker_4d9d48fb796a2257986aa41191798dc9 = L.marker(
+                [40.472, -3.612],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_1aadaa4221e765f1035c9d73f6da1b76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d9d48fb796a2257986aa41191798dc9.setIcon(icon_1aadaa4221e765f1035c9d73f6da1b76);
+        
+    
+        var popup_5e4eafa7d26d04f24be1a28c278b90af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a6c9367908bfd12071ff3e606f76105 = $(`<div id="html_7a6c9367908bfd12071ff3e606f76105" style="width: 100.0%; height: 100.0%;"><b>Valdebebas (Real Madrid)</b><br>$$$$ - Zona exclusiva, junto a la Ciudad Deportiva del Real Madrid</div>`)[0];
+            popup_5e4eafa7d26d04f24be1a28c278b90af.setContent(html_7a6c9367908bfd12071ff3e606f76105);
+        
+
+        marker_4d9d48fb796a2257986aa41191798dc9.bindPopup(popup_5e4eafa7d26d04f24be1a28c278b90af)
+        ;
+
+        
+    
+    
+            var marker_f522aa457fa9ba61fc37c7b8ce010ad2 = L.marker(
+                [40.45, -3.68],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_8b0131d4e86f0d5f4ab6cd89dcdcc757 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f522aa457fa9ba61fc37c7b8ce010ad2.setIcon(icon_8b0131d4e86f0d5f4ab6cd89dcdcc757);
+        
+    
+        var popup_4ea209109eec208ceaad88734f80dff4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_143c0e5828ddff8aa69229b8975e8100 = $(`<div id="html_143c0e5828ddff8aa69229b8975e8100" style="width: 100.0%; height: 100.0%;"><b>Chamartín</b><br>$$$$ - Elegante, muy cerca de colegios top y bien conectado</div>`)[0];
+            popup_4ea209109eec208ceaad88734f80dff4.setContent(html_143c0e5828ddff8aa69229b8975e8100);
+        
+
+        marker_f522aa457fa9ba61fc37c7b8ce010ad2.bindPopup(popup_4ea209109eec208ceaad88734f80dff4)
+        ;
+
+        
+    
+    
+            var marker_ea5e1623f1fe3d45ded01b1c904f9dc7 = L.marker(
+                [40.46, -3.63],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_48fd5f20dcc863a871e01f25789f09c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ea5e1623f1fe3d45ded01b1c904f9dc7.setIcon(icon_48fd5f20dcc863a871e01f25789f09c5);
+        
+    
+        var popup_5b894c77dcda1ff6f5b07a5a2609d677 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da479b0b56edc38cc10e6963778d7de8 = $(`<div id="html_da479b0b56edc38cc10e6963778d7de8" style="width: 100.0%; height: 100.0%;"><b>Hortaleza / Conde de Orgaz</b><br>$$$ - Internacional y familiar, cerca de colegios privados top</div>`)[0];
+            popup_5b894c77dcda1ff6f5b07a5a2609d677.setContent(html_da479b0b56edc38cc10e6963778d7de8);
+        
+
+        marker_ea5e1623f1fe3d45ded01b1c904f9dc7.bindPopup(popup_5b894c77dcda1ff6f5b07a5a2609d677)
+        ;
+
+        
+    
+    
+            var marker_1b7c9bed23d12dd776d6d862849f328f = L.marker(
+                [40.48, -3.87],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_2c6d0441ce2d1bf907833baae11d491d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b7c9bed23d12dd776d6d862849f328f.setIcon(icon_2c6d0441ce2d1bf907833baae11d491d);
+        
+    
+        var popup_7e803a27fcebcac1033dcb7706f768a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88ffcf936002c0cd56714abae5b586f4 = $(`<div id="html_88ffcf936002c0cd56714abae5b586f4" style="width: 100.0%; height: 100.0%;"><b>Majadahonda (Atlético)</b><br>$$–$$$ - Familiar, buena calidad de vida, acceso a Academia del Atlético</div>`)[0];
+            popup_7e803a27fcebcac1033dcb7706f768a5.setContent(html_88ffcf936002c0cd56714abae5b586f4);
+        
+
+        marker_1b7c9bed23d12dd776d6d862849f328f.bindPopup(popup_7e803a27fcebcac1033dcb7706f768a5)
+        ;
+
+        
+    
+    
+            var marker_0b749b43ea9472b70baf10e80c4917eb = L.marker(
+                [40.49, -3.87],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_0ce12c5ee2284e00de7b319b06aa035e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b749b43ea9472b70baf10e80c4917eb.setIcon(icon_0ce12c5ee2284e00de7b319b06aa035e);
+        
+    
+        var popup_4f8de346a723b04568f8f988e7ea5149 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a4d3faab2234967b114678ef6bade24 = $(`<div id="html_2a4d3faab2234967b114678ef6bade24" style="width: 100.0%; height: 100.0%;"><b>Las Rozas</b><br>$$–$$$ - Tranquilo, colegios británicos y buen acceso a canteras</div>`)[0];
+            popup_4f8de346a723b04568f8f988e7ea5149.setContent(html_2a4d3faab2234967b114678ef6bade24);
+        
+
+        marker_0b749b43ea9472b70baf10e80c4917eb.bindPopup(popup_4f8de346a723b04568f8f988e7ea5149)
+        ;
+
+        
+    
+    
+            var marker_43759ee4bf2e646e387a033ce9f0913b = L.marker(
+                [40.43, -3.81],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_3e3046ed219893359d4222f84b50212a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_43759ee4bf2e646e387a033ce9f0913b.setIcon(icon_3e3046ed219893359d4222f84b50212a);
+        
+    
+        var popup_3f75d22d364885fe986da907e8f87fe2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d2841bfb022c688a5864e6d4b65a664e = $(`<div id="html_d2841bfb022c688a5864e6d4b65a664e" style="width: 100.0%; height: 100.0%;"><b>Pozuelo de Alarcón</b><br>$$$ - Muy familiar, colegios internacionales, acceso rápido a Madrid</div>`)[0];
+            popup_3f75d22d364885fe986da907e8f87fe2.setContent(html_d2841bfb022c688a5864e6d4b65a664e);
+        
+
+        marker_43759ee4bf2e646e387a033ce9f0913b.bindPopup(popup_3f75d22d364885fe986da907e8f87fe2)
+        ;
+
+        
+    
+    
+            var marker_77f933dcd61fed0eb8a1bfca00178afa = L.marker(
+                [40.52, -3.64],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_35b73fd8e21c7daa4d60d51aa9622118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_77f933dcd61fed0eb8a1bfca00178afa.setIcon(icon_35b73fd8e21c7daa4d60d51aa9622118);
+        
+    
+        var popup_f225f0cf8b5820e793b590b272dda77c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1617ec006b6a3d77b3b46d2c3e8a0f1 = $(`<div id="html_a1617ec006b6a3d77b3b46d2c3e8a0f1" style="width: 100.0%; height: 100.0%;"><b>La Moraleja (Alcobendas)</b><br>$$$ - Zona premium, colegios internacionales, academias privadas</div>`)[0];
+            popup_f225f0cf8b5820e793b590b272dda77c.setContent(html_a1617ec006b6a3d77b3b46d2c3e8a0f1);
+        
+
+        marker_77f933dcd61fed0eb8a1bfca00178afa.bindPopup(popup_f225f0cf8b5820e793b590b272dda77c)
+        ;
+
+        
+    
+    
+            var marker_6c1dd82c5d691f714181e26ff9df36d0 = L.marker(
+                [40.55, -3.62],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_3ed94aec7ace2017f99157546259dada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c1dd82c5d691f714181e26ff9df36d0.setIcon(icon_3ed94aec7ace2017f99157546259dada);
+        
+    
+        var popup_f2562098f69768e3cd734d946f87ba73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_062769213811200a1959d084e3157e12 = $(`<div id="html_062769213811200a1959d084e3157e12" style="width: 100.0%; height: 100.0%;"><b>San Sebastián de los Reyes</b><br>$$–$$$ - Más asequible, con acceso a academias y colegios concertados</div>`)[0];
+            popup_f2562098f69768e3cd734d946f87ba73.setContent(html_062769213811200a1959d084e3157e12);
+        
+
+        marker_6c1dd82c5d691f714181e26ff9df36d0.bindPopup(popup_f2562098f69768e3cd734d946f87ba73)
+        ;
+
+        
+    
+    
+            var marker_39902e9b61ef33091613494500a2e137 = L.marker(
+                [40.54, -3.63],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_7e54d4fcb78c065690911dd1bafa0532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39902e9b61ef33091613494500a2e137.setIcon(icon_7e54d4fcb78c065690911dd1bafa0532);
+        
+    
+        var popup_c851a880722777a64e58f8bc047ae5a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74de6fee90526f09c8d7c15d1176e987 = $(`<div id="html_74de6fee90526f09c8d7c15d1176e987" style="width: 100.0%; height: 100.0%;"><b>Alcobendas</b><br>$$–$$$ - Familiar, colegios privados y concertados, cerca de La Moraleja</div>`)[0];
+            popup_c851a880722777a64e58f8bc047ae5a6.setContent(html_74de6fee90526f09c8d7c15d1176e987);
+        
+
+        marker_39902e9b61ef33091613494500a2e137.bindPopup(popup_c851a880722777a64e58f8bc047ae5a6)
+        ;
+
+        
+    
+    
+            var marker_141999e10dac2b7f4550e5f06fc9613c = L.marker(
+                [40.31, -3.73],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_f33edcc0347937f8bd52f6868fc0b2ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_141999e10dac2b7f4550e5f06fc9613c.setIcon(icon_f33edcc0347937f8bd52f6868fc0b2ec);
+        
+    
+        var popup_b9997d517a11b9330d6437df99d350d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43aaeb3cc00a8e19b5d81f72f9e0b07f = $(`<div id="html_43aaeb3cc00a8e19b5d81f72f9e0b07f" style="width: 100.0%; height: 100.0%;"><b>Getafe</b><br>$$–$$$ - Opción más asequible, cerca del Getafe CF y buena conexión al centro</div>`)[0];
+            popup_b9997d517a11b9330d6437df99d350d2.setContent(html_43aaeb3cc00a8e19b5d81f72f9e0b07f);
+        
+
+        marker_141999e10dac2b7f4550e5f06fc9613c.bindPopup(popup_b9997d517a11b9330d6437df99d350d2)
+        ;
+
+        
+    
+    
+            var marker_5e6315c8250f7af424262f699d5a4429 = L.marker(
+                [40.4168, -3.7038],
+                {}
+            ).addTo(map_0421cb1710645f47a986f324b5e77708);
+        
+    
+            var icon_3c5dd440bdb219fece56a2dae27eb684 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e6315c8250f7af424262f699d5a4429.setIcon(icon_3c5dd440bdb219fece56a2dae27eb684);
+        
+    
+        var popup_a5369e7bbaf2604340c0f33a06ba3e39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90c60854b7bb95be1dfbacd173592d0f = $(`<div id="html_90c60854b7bb95be1dfbacd173592d0f" style="width: 100.0%; height: 100.0%;"><b>Centro de Madrid (Puerta del Sol)</b><br>$ - Referencia, céntrico, transporte y ocio</div>`)[0];
+            popup_a5369e7bbaf2604340c0f33a06ba3e39.setContent(html_90c60854b7bb95be1dfbacd173592d0f);
+        
+
+        marker_5e6315c8250f7af424262f699d5a4429.bindPopup(popup_a5369e7bbaf2604340c0f33a06ba3e39)
+        ;
+
+        
+    
+</script>
+</html>
